@@ -1,0 +1,59 @@
+
+
+.menu {
+    background: #2d3436;
+    scroll-behavior: auto;
+}
+.menu a p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ececec;
+    font-style: 24px;
+}
+.menu ul li {
+    margin-left: 30px;
+}
+.menu ul li a {
+    color: #ecec;
+}
+.menu ul li a.active {
+    background: #ff0066;
+}
+header {
+    background-image: url(../img/blog-01.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+}
+header h1 {
+    color: #03edf5;
+    font-style: 15px;
+    padding-bottom: 15px;
+}
+header h1 span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #0d7579;
+}
+header h4 {
+    color: #da115c;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+header a {
+    background: #e20f9c;
+    text-decoration: none;
+    color: #ececec;
+    padding: 12px 29px;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+    padding-bottom: 15px;
+    margin-top: 41px;
+}
+header a:hover {
+    background: #f1114965;
+    text-decoration: none;
+    color: #ececec;
+    
+}
